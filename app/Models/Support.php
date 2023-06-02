@@ -14,7 +14,7 @@ class Support extends Model
     protected $keyType = 'string';
 
     protected $fillable = [
-        'status', 'description'
+        'status', 'description', 'lesson_id'
     ];
 
     public $statusOptions = [
